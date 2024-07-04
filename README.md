@@ -10,7 +10,7 @@ and assume the documentation is built in markdown (MD).
 
 The build process remains as Sphinx and template remains Read the Docs.
 
-Type `make html` in the `docs` directory to build the document in `build/html/`.
+Type `make html` in the top directory to build the document in `build/html/`.
 
 For more information on using Markdown, see the
 [MyST Project documetation](https://myst-parser.readthedocs.io/en/latest/index.html)

@@ -1,0 +1,3 @@
+# Hosting a Continuous Integration (CI) Project at a Lab
+
+Good details to come...

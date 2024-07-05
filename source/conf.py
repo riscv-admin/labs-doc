@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = '<RISC-V Docs Template>'
+project = 'RISC-V Labs Documentation>'
 copyright = '2024, RISC-V International'
 author = 'RISC-V International'
 release = '0.1'

@@ -27,7 +27,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-#build/
+build/
 develop-eggs/
 dist/
 downloads/
@@ -88,7 +88,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+docs/_build
 
 # PyBuilder
 .pybuilder/
@@ -156,5 +156,4 @@ cython_debug/
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 
 # Other items not to include for RISC-V usage
-docs/conf.py
-docs/json/
+docs/

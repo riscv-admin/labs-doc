@@ -26,9 +26,10 @@ Install prerequisites
 
 Compute instances need OpenJDK 17 or newer installed on them to be hosted on Jenkins.
 
-```bash
-sudo apt install openjdk-17-jdk
-```
+.. code::
+
+    sudo apt install openjdk-17-jdk
+
 
 Set up agent in Jenkins
 -----------------------

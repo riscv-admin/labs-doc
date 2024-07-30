@@ -8,6 +8,7 @@ TBD overview...
 Documents
 
 .. toctree::
+   :includehidden:
    :maxdepth: 2
 
    becoming_lab_partner

@@ -20,7 +20,7 @@ RISC-V Ecosystem Lab Partners provide one or more of the following:
 - “Sandbox” instances of RISC-V physical and virtual hardware for open source communities and projects
 
 For more information about the RISC-V Ecosystem Labs program, please see the
-`RISC-V Ecosystem Labs page <https://riscv.org/risc-v-labs/>` on the RISC-V website.
+`RISC-V Ecosystem Labs page <https://riscv.org/risc-v-labs/>`_ on the RISC-V website.
 
 ++++++++++++++++++++++++++++++++++++++++++
 Membership

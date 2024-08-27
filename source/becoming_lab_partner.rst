@@ -28,12 +28,12 @@ Membership
 
 The RISC-V Ecosystem Lab Partner Program requires membership in RISC-V.
 Information about membership and the various levels can be found on the
-`RISC-V Membership page <https://riscv.org/membership/`_.  See the webpage
+`RISC-V Membership page <https://riscv.org/membership/>`_.  See the webpage
 for contact information for any additional questions.
 
 Additional information about joining RISC-V and getting on-board as a 
 contributing member, can be found in the 
-`_RISC-V Getting Started Guide_ <https://docs.google.com/document/d/1Qjf6BwMmtqTfzftr3WWf2bRv8Cl4f0qZrWWbr0jCBSU/>`_.
+`RISC-V Getting Started Guide <https://docs.google.com/document/d/1Qjf6BwMmtqTfzftr3WWf2bRv8Cl4f0qZrWWbr0jCBSU/>`_.
 
 ++++++++++++++++++++++++++++++++++++++++++
 Community
@@ -67,7 +67,7 @@ Becoming and Ecosystem Lab Partner
 ++++++++++++++++++++++++++++++++++++++++++
 
 To become a certified RISC-V Ecosystem Partner, members must meet the criteria defined in the
-`_RISC-V Labs Policy_ <https://docs.google.com/document/d/1wGpXaGeM1soTCi5rSYpaL8IwdlTHwSZiGc_5oSiJtxk/edit?usp=sharing>`_.
+`RISC-V Labs Policy <https://docs.google.com/document/d/1wGpXaGeM1soTCi5rSYpaL8IwdlTHwSZiGc_5oSiJtxk/edit?usp=sharing>`_.
 The RISC-V Staff and members of the Ecosystem Labs Partners will assist in helping you make decisions
 and work through the requirements.
 
@@ -81,5 +81,5 @@ Questions
 ++++++++++++++++++++++++++++++++++++++++++
 
 Questions about the RISC-V Ecosystem Lab Partners program can be directed to the RISC-V Ecosystem
-Lab Partners mailing list at `lab-partners@lists.riscv.org <mailto:lab-partners@lists.riscv.org`_ or
+Lab Partners mailing list at `lab-partners@lists.riscv.org <mailto:lab-partners@lists.riscv.org>`_ or
 to RISC-V Staff at `help@riscv.org <mailto:help@riscv.org>`_.

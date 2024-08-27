@@ -74,7 +74,9 @@ and work through the requirements.
 By completing the work, certified RISC-V Ecosystem Partnes earn the right to display the 
 RISC-V Ecosystem Lab Partner badge on their website.
 
-![RISC-V Ecosystem Lab Partner badge](https://riscv.org/wp-content/uploads/2023/11/RV-Lab-Partner.png)
+.. image:: https://riscv.org/wp-content/uploads/2023/11/RV-Lab-Partner.png
+   :width: 400
+   :alt: RISC-V Ecosystem Lab Partner badge
 
 ++++++++++++++++++++++++++++++++++++++++++
 Questions

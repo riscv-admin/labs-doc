@@ -11,5 +11,5 @@ Documents
    :includehidden:
    :maxdepth: 2
 
-   becoming_lab_partner
+   becoming_eco_lab_partner
    ci_hosting

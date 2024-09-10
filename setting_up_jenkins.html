@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Setting Up Jenkins &mdash; RISC-V Labs Documentation&gt; 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/risc-v.css?v=5d3f3da0" />
+      <link rel="stylesheet" type="text/css" href="_static/css/risc-v.css?v=5d3f3da0" />
+
+  
+    <link rel="shortcut icon" href="_static/riscv-favicon-32x32.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=2709fde1"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Writing a CI pipeline file for Jenkins" href="writing_ci_pipeline_file.html" />
+    <link rel="prev" title="Hosting RISC-V CI through Jenkins" href="hosting_jenkins.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            RISC-V Labs Documentation>
+              <img src="_static/RISC-V-Logo.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="becoming_eco_lab_partner.html">Becoming an RISC-V Ecosystem Labs Partner</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="ci_hosting.html">Hosting Continuous Integration (CI) for RISC-V</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="hosting_jenkins.html">Hosting RISC-V CI through Jenkins</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Setting Up Jenkins</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#installing-jenkins">Installing Jenkins</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#adding-risc-v-agents-in-jenkins">Adding RISC-V agents in Jenkins</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="writing_ci_pipeline_file.html">Writing a CI pipeline file for Jenkins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="writing_ci_pipeline_file.html#jenkinfile-examples">Jenkinfile Examples</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: white" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RISC-V Labs Documentation></a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="ci_hosting.html">Hosting Continuous Integration (CI) for RISC-V</a></li>
+          <li class="breadcrumb-item"><a href="hosting_jenkins.html">Hosting RISC-V CI through Jenkins</a></li>
+      <li class="breadcrumb-item active">Setting Up Jenkins</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/setting_up_jenkins.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="setting-up-jenkins">
+<h1>Setting Up Jenkins<a class="headerlink" href="#setting-up-jenkins" title="Link to this heading"></a></h1>
+<p>This page describes how users can host RISC-V CI via Jenkins. For hosting CI through Jenkins, follow the steps described below.</p>
+<section id="installing-jenkins">
+<h2>Installing Jenkins<a class="headerlink" href="#installing-jenkins" title="Link to this heading"></a></h2>
+<p>Jenkins install instructions are given at <a class="reference external" href="https://www.jenkins.io/doc/book/installing/">this link</a>.</p>
+<p>If you wish to build Jenkins from source, the repository is available at <a class="reference external" href="https://github.com/jenkinsci/jenkins">https://github.com/jenkinsci/jenkins</a></p>
+</section>
+<section id="adding-risc-v-agents-in-jenkins">
+<h2>Adding RISC-V agents in Jenkins<a class="headerlink" href="#adding-risc-v-agents-in-jenkins" title="Link to this heading"></a></h2>
+<p>Agents are the compute instances in Jenkins on which CI builds are run.
+Once Jenkins is installed, the next step is to add RISC-V agents in Jenkins. They are also referred to as slaves, build executors, or runners.</p>
+<p>Make sure that Jenkins Master (the compute instance on which Jenkins web server is running) is accessible by the RISC-V compute instance you wish to add as a slave.</p>
+<p><em>For the sake of simplicity, it is assumed that RISC-V compute instances have Linux operating system installed on them (preferably Ubuntu) and are accessible through SSH</em></p>
+<section id="install-prerequisites">
+<h3>Install prerequisites<a class="headerlink" href="#install-prerequisites" title="Link to this heading"></a></h3>
+<p>Compute instances need OpenJDK 17 or newer installed on them to be hosted on Jenkins.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span> <span class="n">install</span> <span class="n">openjdk</span><span class="o">-</span><span class="mi">17</span><span class="o">-</span><span class="n">jdk</span>
+</pre></div>
+</div>
+</section>
+<section id="set-up-agent-in-jenkins">
+<h3>Set up agent in Jenkins<a class="headerlink" href="#set-up-agent-in-jenkins" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>In the Jenkins web server, go to <code class="code docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Executor</span> <span class="pre">Status</span> <span class="pre">&gt;</span> <span class="pre">New</span> <span class="pre">Node</span></code></p></li>
+</ul>
+<img alt="_images/hosting_jenkins_1.png" src="_images/hosting_jenkins_1.png" />
+<img alt="_images/hosting_jenkins_2.png" src="_images/hosting_jenkins_2.png" />
+<ul class="simple">
+<li><p>Add a Node name (this will be displayed in the build executor list) and select Permanent Agent</p></li>
+<li><p>Add a suitable description for users who will be using that compute instance</p></li>
+</ul>
+<img alt="_images/hosting_jenkins_3.png" src="_images/hosting_jenkins_3.png" />
+<ul class="simple">
+<li><p>Add the number of executors (this indicates how many builds can run concurrently)</p></li>
+<li><p>Change <code class="code docutils literal notranslate"><span class="pre">Launch</span> <span class="pre">method</span></code> to <code class="code docutils literal notranslate"><span class="pre">Launch</span> <span class="pre">agents</span> <span class="pre">via</span> <span class="pre">SSH</span></code> since our agent is accessible via SSH</p></li>
+<li><p>In <code class="code docutils literal notranslate"><span class="pre">Host</span></code>, add the IP or URL which can be used to access the compute instance</p></li>
+<li><p>In <code class="code docutils literal notranslate"><span class="pre">Credentials</span></code>, click on <code class="code docutils literal notranslate"><span class="pre">Add</span></code> if you have not created the credentials yet and add the credentials <code class="code docutils literal notranslate"><span class="pre">Kind</span></code> as <code class="code docutils literal notranslate"><span class="pre">Username</span> <span class="pre">with</span> <span class="pre">password</span></code> (these are the credentials which you can use to SSH to your RISC-V compute instance)</p></li>
+<li><p>In <code class="code docutils literal notranslate"><span class="pre">Host</span> <span class="pre">Key</span> <span class="pre">Verification</span> <span class="pre">Strategy</span></code>, select <code class="code docutils literal notranslate"><span class="pre">Manually</span> <span class="pre">trusted</span> <span class="pre">key</span> <span class="pre">Verification</span> <span class="pre">strategy</span></code> and also check <code class="code docutils literal notranslate"><span class="pre">Require</span> <span class="pre">manual</span> <span class="pre">verification</span> <span class="pre">of</span> <span class="pre">initial</span> <span class="pre">connection</span></code></p></li>
+<li><p>If you access the RISC-V compute instance through a port other than 22, click on <code class="code docutils literal notranslate"><span class="pre">Advanced</span></code> and enter <code class="code docutils literal notranslate"><span class="pre">Port</span></code></p></li>
+<li><p>Leave other settings as is and click save</p></li>
+</ul>
+<p>Once the settings are saved, you will see <code class="code docutils literal notranslate"><span class="pre">Trust</span> <span class="pre">SSH</span> <span class="pre">Host</span> <span class="pre">Key</span></code> on the left bar. Click on it and grant permission to use the compute instance to the Jenkins controller.</p>
+<img alt="_images/hosting_jenkins_4.png" src="_images/hosting_jenkins_4.png" />
+<img alt="_images/hosting_jenkins_5.png" src="_images/hosting_jenkins_5.png" />
+<p>Now the Jenkins agent is added and can be used. For using Jenkins as mentioned above instance, use the name which you gave it at the start in your build pipelines of Jenkins.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="hosting_jenkins.html" class="btn btn-neutral float-left" title="Hosting RISC-V CI through Jenkins" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="writing_ci_pipeline_file.html" class="btn btn-neutral float-right" title="Writing a CI pipeline file for Jenkins" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, RISC-V International.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

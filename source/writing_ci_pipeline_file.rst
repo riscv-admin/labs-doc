@@ -7,7 +7,7 @@ The CI pipeline used for Jenkins CI is called Jenkinsfile. Jenkinsfile can be of
 2. Declarative Jenkinsfile
 
 
-Jenkinfile Examples
+Jenkinsfile Examples
 ===================
 
 Following is an example of scripted jenkinfile.

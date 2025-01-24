@@ -15,6 +15,13 @@ The current published pages can be found at [https://riscv-admin.github.io/labs-
 
 The build process remains as Sphinx and template remains Read the Docs.
 
+Use following commands to install the pre-requisites.
+
+```
+sudo apt-get install python3 python3-pip
+pip install sphinx sphinx_rtd_theme myst_parser
+```
+
 Type `make html` in the top directory to build the document in `docs/html/`.
 
 For more information on using Markdown, see the

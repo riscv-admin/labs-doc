@@ -14,3 +14,4 @@ Following platforms currently support RISC-V CI:
     :maxdepth: 2
 
     hosting_jenkins
+    hosting_gitlab

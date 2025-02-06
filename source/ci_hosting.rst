@@ -8,6 +8,7 @@ Following platforms currently support RISC-V CI:
 
 #. Jenkins
 #. GitLab
+#. JetBrains TeamCity
 
 .. toctree::
     :hidden:

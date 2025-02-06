@@ -15,3 +15,4 @@ Following platforms currently support RISC-V CI:
 
     hosting_jenkins
     hosting_gitlab
+    hosting_teamcity.rst
